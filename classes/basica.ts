@@ -14,7 +14,7 @@
   }
 
   const antman: Avenger = new Avenger("Gabo", "Code");
-  console.log(antman);
+  // console.log(antman);
   //* Fin clase sencilla
 
   //* Forma de clase reducida
@@ -39,9 +39,9 @@
   }
 
   const thor: Avenger2 = new Avenger2("Gabo2", "Code2", "GaboRac"); //* nueva instancia de la clase Avenger
-  console.log(thor);
-  console.log(thor.bio()); //* acceder a metodo public de la clase
-  console.log(Avenger2.getAvgAge()); //* acceder a metodo estatico de la clase
+  // console.log(thor);
+  // console.log(thor.bio()); //* acceder a metodo public de la clase
+  // console.log(Avenger2.getAvgAge()); //* acceder a metodo estatico de la clase
 
   //* Fin Forma de clase reducida
 })();
