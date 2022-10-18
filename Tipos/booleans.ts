@@ -1,7 +1,7 @@
-(()=>{
-    let isSuperman:boolean = true;
-    let isBatman:boolean=false;
+(() => {
+  let isSuperman: boolean = true;
+  let isBatman: boolean = false;
 
-    isSuperman = (isBatman) ? true : false;
-    console.log({isSuperman})
-})()
+  isSuperman = isBatman ? true : false;
+  console.log({ isSuperman });
+})();

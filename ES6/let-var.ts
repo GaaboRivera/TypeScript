@@ -1,3 +1,3 @@
-(()=>{
-    console.log('let')
-})()
+(() => {
+  console.log("let");
+})();
